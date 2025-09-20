@@ -39,7 +39,7 @@ with st.sidebar:
     st.subheader("圖像設置")
     model = st.selectbox(
         "模型",
-        ["flux.1-schnell", "dall-e-3", "dall-e-2"],
+        ["flux.1-schnell", "flux.1.1-pro", "flux.1-kontext-pro""flux.1-kontext-max""gpt-image-1"],
         help="選擇圖像生成模型"
     )
 
